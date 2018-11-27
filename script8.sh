@@ -206,11 +206,11 @@ vhosts_installation
 enable_start_services
 open_firewall
 https_installation
-wordpress_database_creation
-mysql_secure
+#wordpress_database_creation
+#mysql_secure
 store_passwords
 test_stack
-wpcli_installation
-wordpress_installation
+#wpcli_installation
+#wordpress_installation
 print_end_message
 
