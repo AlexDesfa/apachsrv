@@ -7,6 +7,6 @@ Steps on Ubuntu :
 - docker run -it -p 8080:80 -v $(pwd)/webpages:/var/www/html/ -P apachsrv bash
 
 And the on the container :
-- service dbus start && service apache2 start
+- service dbus start && service apache2 start && service mysqld start && service firewalld start
 
  
